@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px -100px 0px -300px;
+
+}
+.home p{
+    font-size: 24px;
+    border: 2px solid black;
+    margin: 18px 2px 3px 4px;
+}
+.head{
+    display: flex;
+    justify-content: end;
+    margin: 0px -300px 0px 0px;
+}
+h2{
+    display: flex;
+    justify-content: end;
+    font-size: 28px;
+    font-weight: lighter;
+    margin: 17px 40px;
+}
+hr{
+    background-color: black;
+    height: 2px;
+    width: 80%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 4em;
+    
+}
+.container{
+    width: 1100px;
+    margin: 0% auto;
+    height: 50%;
+}
+main p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 30px;
+    height: 100px;
+}
+.image img{
+    size: 5em;
+    height: 250px;
+    width: 100%;
+}
+h1{
+    font-weight: lighter;
+    font-size: 50px;
+}
+.icon p{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    border: 2px solid black;
+    margin: 8px 100px 3px 100px;
+    width: 8em;
+    padding: .2em;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.abt{
+    display: flex;
+}
+.links{
+    margin: -30px 30px 30px 30px;
+} 
+.abt p{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin: 18px 20px;
+}
